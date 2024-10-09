@@ -40,7 +40,7 @@ const Appointments = () => {
          endTime.setDate(today.getDate() + i)
          endTime.setHours(21,0,0,0)
          
-        //  setting Hours
+        //  setting Hours from here
         if(today.getDate() === currDate.getDate()){
           currDate.setHours(currDate.getHours() > 10 ? currDate.getHours() + 1 : 10)
           currDate.setMinutes(currDate.getMinutes() > 30 ? 30 : 0)
